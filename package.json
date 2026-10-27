@@ -1,0 +1,66 @@
+{
+  "name": "money-rates",
+  "version": "1.0.0",
+  "description": "money.js-compatible currency conversion with live rates built in. Same fx(100).from('USD').to('GBP') API, plus fx.load() for keyless ECB rates or real-time mid-market rates for 160+ currencies from AllRatesToday.",
+  "main": "index.js",
+  "module": "index.mjs",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "import": "./index.mjs",
+      "require": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.mjs",
+    "index.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "money",
+    "money.js",
+    "moneyjs",
+    "fx",
+    "currency",
+    "convert",
+    "conversion",
+    "exchange",
+    "rate",
+    "utilities",
+    "accounting",
+    "number",
+    "cart",
+    "ecommerce",
+    "exchange rate",
+    "exchange rates",
+    "exchangerate",
+    "exchange-rate",
+    "currency-converter",
+    "currency-conversion",
+    "currency-api",
+    "currency-rates",
+    "forex",
+    "ecb",
+    "allratestoday"
+  ],
+  "author": "AllRatesToday <support@allratestoday.com> (https://allratestoday.com)",
+  "license": "MIT",
+  "homepage": "https://allratestoday.com/migrate/money-js/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AllRates-Today/money-rates.git"
+  },
+  "bugs": {
+    "url": "https://github.com/AllRates-Today/money-rates/issues"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "sideEffects": false
+}
