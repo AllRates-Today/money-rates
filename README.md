@@ -86,6 +86,7 @@ Without a key, the rates are free for any use, commercial included. Where you sh
 - [Keyless open API](https://allratestoday.com/open-api/)
 - [Exchange rate API](https://allratestoday.com/exchange-rate-api/)
 - [JavaScript SDK `@allratestoday/sdk`](https://www.npmjs.com/package/@allratestoday/sdk)
+- [ChatGPT app](https://chatgpt.com/plugins/plugin_asdk_app_6ae1e76098f48191a285ac3f5ab7a83b) — ask ChatGPT for live and official central bank rates
 
 money.js is © Open Exchange Rates, MIT. This package is an independent reimplementation of its API and is not affiliated with it.
 
